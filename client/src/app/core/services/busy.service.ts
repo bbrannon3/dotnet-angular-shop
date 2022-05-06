@@ -10,11 +10,7 @@ export class BusyService {
 
   busy(){
     this.busyRequestCount +=1;
-    this.spinner.show(undefined,{
-      type: 'timer',
-      bdColor: 'rgba(255,255,255,0.7)',
-      color: '#fdfdfd'
-    } )
+    this.spinner.show(undefined)
   }
 
 
